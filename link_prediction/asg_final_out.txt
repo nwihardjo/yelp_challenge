@@ -1,7 +1,7 @@
 
 ########################################################################
-#      Date:           Sat Apr  6 06:06:47 PDT 2019
-#    Job ID:           920.v-qsvr-1.aidevcloud
+#      Date:           Sun Apr  7 00:43:38 PDT 2019
+#    Job ID:           1247.v-qsvr-1.aidevcloud
 #      User:           u25065
 # Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,walltime=24:00:00
 ########################################################################
@@ -66,8 +66,8 @@ Params:
 	q = 1
 	walk_length = 200
 	window_size = 200
-	auc_score = 0.938575
-Duration: 11603.060455560684 seconds
+	auc_score = 0.958702
+Duration: 11583.138326406479 seconds
 
 Best params (max of 5 models):
 	dimension = 300
@@ -78,16 +78,16 @@ Best params (max of 5 models):
 	q = 1
 	walk_length = 200
 	window_size = 200
-	auc_score = 0.938575
+	auc_score = 0.958702
 
 
-Best accuracy: 0.9385748331544226
+Best accuracy: 0.9587018353584863
 end
 360 / 7366 = 0.04887320119467825
 Ending Programme
 
 ########################################################################
-# End of output for job 920.v-qsvr-1.aidevcloud
-# Date: Sat Apr  6 09:20:34 PDT 2019
+# End of output for job 1247.v-qsvr-1.aidevcloud
+# Date: Sun Apr  7 03:57:09 PDT 2019
 ########################################################################
 
