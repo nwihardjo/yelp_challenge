@@ -21,7 +21,7 @@ def get_neighbourhood_score(local_model, node1, node2, is_test=False):
     except:
         if is_test:
             total_unknown += 1
-        return random.random()
+        return 0.5 
 
 
 def get_G_from_edges(edges):
