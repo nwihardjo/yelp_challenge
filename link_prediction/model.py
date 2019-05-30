@@ -96,18 +96,6 @@ for i, record in raw_test_data.iterrows():
     test_edges.append((str(record['head']), str(record['tail'])))
 
 print('finish loading the test data.')
-
-
-# directed = True
-# p = 1
-# q = 40
-# num_walks = 35
-# walk_length = 5
-# dimension = 300
-# window_size = 3
-# num_workers = 5
-# iterations = 3
-
 directed = True
 history = []
 param_grid = {
