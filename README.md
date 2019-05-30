@@ -16,6 +16,21 @@ This repo contains the code for HKUST COMP4332 projects, which is using the data
 
 Most of the training of the model is done on either [Google Colab](https://colab.research.google.com/) because of their TPU support. However, as running grid search requires significantly longer time to train the model, and Google Colab has its limit on the runtime, [Intel AI Cluster](https://software.intel.com/en-us/articles/getting-started-with-the-intel-ai-devcloud) is used instead.
 
+## Setup
+
+The easiest way to run locally is to make a [Conda](https://docs.conda.io/en/latest/) environment for Python3.6 and install the required library in that environment:
+- keras
+- nltk
+- tensorflow
+- sklearn
+- numpy
+- pandas
+- tqdm
+- node2vec
+- networkx
+- gensim
+- and other basic libraries
+
 ## Contributor
 - [Nathaniel Wihardjo](https://github.com/nwihardjo/)
 - [Petra Gabriela](https://github.com/pgabriela/)
